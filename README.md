@@ -9,4 +9,4 @@
 
 <img src="https://github.com/Adogamm/login-template/blob/main/screens/V1.png?raw=true">
 
-<img src="https://github.com/Adogamm/login-template/blob/main/screens/V2.png?raw=true">
+<img src="https://github.com/Adogamm/login-template/blob/main/screens/V2update.png?raw=true">
