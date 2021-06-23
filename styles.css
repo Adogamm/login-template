@@ -11,9 +11,6 @@
 }
 
 body {
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center bottom;
     padding: 20px;
 }
 
@@ -136,7 +133,6 @@ input[type=submit]:hover {
     padding: 40px;
     position: relative;
     transition: all 1s ease;
-    display: none;
 }
 
 .capa {
@@ -169,7 +165,7 @@ input[type=submit]:hover {
 }
 
 .logo-organization {
-    width: 100px;
+    width: 70px;
 }
 
 .organization {
