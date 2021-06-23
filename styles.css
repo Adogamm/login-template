@@ -1,0 +1,197 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+
+.container-all {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 620px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+/* Conetenedor del login */
+
+.ctn-form {
+    width: 80%;
+    max-width: 500px;
+    padding: 40px;
+    background: #f7f7f7;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+
+input[type=email],input[type=password] {
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: rgba(255,158,0);
+    font-size: 16px;
+    transition: all 0.6s ease;
+}
+
+input[type=email]:hover,input[type=password]:hover {
+    color: rgba(255,200,0);
+    border-bottom: 1px solid rgba(255,158,0);
+}
+
+input[type=email]:focus,input[type=password]:focus {
+    border-bottom: 1px solid rgba(255,158,0);
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    border: 0px;
+    background: rgba(255,158,0);
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.15s ease;
+}
+
+input[type=submit]:hover {
+    background: rgba(255,200,0);
+}
+
+.text-footer {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    color: #7a7a7a;
+    font-weight: 300;
+}
+
+.text-footer a {
+    text-decoration: none;
+    color: rgba(255,158,0);
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+
+.text-footer a:hover {
+    text-decoration: none;
+    color: rgba(255,200,0);
+    font-weight: 500;
+}
+
+/* Texto lateral */
+
+.ctn-text {
+    width: 100%;
+    background-image: url(images/maquina.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    position: relative;
+    transition: all 1s ease;
+    display: none;
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(248,160,0);
+    opacity: 0.8;
+}
+
+.title-description {
+    position: relative;
+    top: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-description {
+    position: relative;
+    top: 55px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.logo-organization {
+    width: 100px;
+}
+
+.organization {
+    padding: 0;
+    margin-top: 220px;
+    position: relative;
+    text-align: center;
+}
+
+.organization a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-weight: 300;
+}
+
+.organization a:hover{
+    color: white;
+    font-weight: 400;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 800px){
+    .ctn-text{
+        display: none;
+    }
+
+    .ctn-form{
+        margin: auto;
+        width: 100%;
+    }
+}
